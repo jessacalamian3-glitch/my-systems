@@ -1,0 +1,6 @@
+[13-Dec-2025 11:14:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\msu_portal\notifications.php:146
+Stack trace:
+#0 C:\xampp\htdocs\msu_portal\notifications.php(146): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\msu_portal\notifications.php(366): AssignmentManager->getAllAssignments(NULL, 'all')
+#2 {main}
+  thrown in C:\xampp\htdocs\msu_portal\notifications.php on line 146
